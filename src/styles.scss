@@ -1,0 +1,148 @@
+body {
+  background: linear-gradient(180deg, rgba(18, 54, 22, 0.60) 0%, rgba(39, 123, 47, 0.00) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+  text-align: center;
+}
+ body {
+  background-image: url('https://s3-alpha-sig.figma.com/img/2e84/6779/20f2e7220cbdbcfa6018488b90b83f7f?Expires=1699833600&Signature=SGbNTS6RjHpV0eaavlvXJGlOy9UrQ2fAxKanUMFjIikMShytFIBOEDfv3~a5YabQgsbGCjOQm2Jz7gE6S9P67I4fU3rLhRSQyaK9nn5eHcZez7W0D9I3kpyU9H5Jc~fWe3IvmRezn73flv26ct8sbR92AVHWFeDvTQeHrQ-s11C7lq9jU~Tvhv~0GiIUE5QQKe73evHf5EWBKKJibWU2cceGDH-R~0diBV2-TlLlfm2QOLlA~Ge~dld8h2CdEZZ57gcUmQtVnr-BC1n0sycpHtYWArC-QlbH~Tu6ByjzdjpsgsCfven-Xf0hHJ34rQHyrmugzitNUAkPSU~WJD17uA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+  width: 1280px;
+  height: 720px;
+  flex-shrink: 0;
+  background-repeat:no-repeat; 
+  background-size:cover;
+  
+ }
+ .darker {
+  color: #FFF;
+  width: 374px; 
+  height: 64px; 
+  flex-shrink: 0; 
+  border-radius: 59px; 
+  background: rgba(0, 0, 0, 0.50);
+ }
+ 
+h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+h1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.50);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 134.5px; /* 93.403% */
+}
+h2{
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 118.5%; /* 71.1px */
+  text-align: center;
+}
+h4 {
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 118.5%;
+  letter-spacing: 7.02px;
+  text-align: center;
+}
+
+button {
+  border-radius: 35px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFF 0%, #F9F9F9 100%);
+  box-shadow: 0px 10px 50px 0px rgba(16, 51, 30, 0.50);
+  text-align: center;
+  width: 180px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #48924F;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h6 {
+  color: var(--Gray-3, #828282);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+h5 {
+  color: #0D4D14;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px; /* 150% */
+}
+.background {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), lightgray 50%;
+  background-image: url('https://s3-alpha-sig.figma.com/img/860f/3517/253fee6dd12a4f685eac07b25fa3f69d?Expires=1699833600&Signature=TDTNQGyOgp-N-LCeEaRfS1utrkJ6N9VaDfHICNwgbEcxVyRuvIb-icsj1~gF2v2YUia75Rgu0xcVsVAvRNToaRwfv50npESHYRLCGp-BaLY9G58nYdM1jVS1~BLWR6UgGs-qwbT0JRgA8I0RBvwK~~FP1wrI8BGeE~F1AcMoVTZwkixdbLvVLC68zEqwstgT0jIDba2YH1u7iXBwZOi9Z5Eu1ERxd~YOJmyuuu614SGL~16ZXEjeaWvQwHA6fBx1dd1z5qf2Z4BAtttWDipnDNY7zKRCuvccoyWYzjz4ecKI1qlAIdxTpbngrgdWLn84kaY-dkmNNuA0OKVJ~22zIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1480px;
+  height: 520px;
+  flex-shrink: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 0px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25) inset;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.col-3 {
+  width: 560px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #6CB981;
+  background: #FFF;
+  color: #0D4C14;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+
+}
+.sorry {
+  width: 374px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 61px;
+  background: #9FDEA9;
+}
+.smaller {
+  width: 168px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 61px;
+  border: 3px solid #4DB96B;
+}
